@@ -1,0 +1,101 @@
+:root {
+    --first: #f1f1f1;
+    --second: #1178f3;
+}
+
+body {
+    max-width: 1120px;
+    margin: auto;
+    background-image: url(./images/bgjpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header */
+
+/* chỉnh margin  */
+.header {
+    margin-top: 30px;
+    background-color: var(--first);
+    opacity: 0.9;
+
+}
+
+.header .row {
+    padding: 15px;
+
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.header h1 {
+    text-align: left;
+    padding-top: 15px;
+}
+
+.header .row .right {
+    text-align: right;
+    padding: 15px;
+}
+
+/* main */
+.main {
+    display: flex;
+    margin-bottom: 30px;
+
+
+
+}
+
+.main .row {
+    background-color: #b4b1b1;
+    opacity: 0.8;
+    padding-bottom: 50px;
+
+}
+
+.main .row .left {
+    max-width: 50%;
+}
+
+.main .row .right {
+    max-width: 50%;
+}
+
+
+
+/* common  */
+.header .row .right button {
+    padding: 3px 20px;
+    background-color: var(--second);
+    border: none;
+}
+
+.main .row .right i {
+    color: var(--second);
+}
+
+.main .introduce i,
+.header i {
+    font-size: 20px;
+}
+
+/* ** */
+.main .row .introduce,
+.main .row .work,
+.main .row .Education,
+.main .row .experience,
+.main .row .hobby,
+.main .row .skill {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: var(--first);
+    border-radius: 15px;
+}

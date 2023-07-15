@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    height: 75px;
+    background-color: skyblue;
+    color: black;
+
+
+}
+
+nav {
+    display: inline-block;
+    padding: 0 300px;
+}
+
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* hết dòng xuống hàng */
+    flex-wrap: wrap;
+    /* canh giữa */
+    align-content: center;
+
+}
+
+
+
+
+ul li a {
+    text-decoration: none;
+    margin: 25px 12px;
+    display: inline-block;
+    font-size: 25px;
+
+
+}
+
+ul li:hover {
+    background-color: gray;
+    color: red;
+
+}
+
+.info {
+    margin-top: 20px;
+
+}
+
+.info img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    /* chống méo hình */
+    object-fit: cover;
+    object-position: center;
+}
+
+.product {
+    margin-top: 20px;
+    padding: 50px 350px;
+
+
+
+}
+
+.product .row {
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    background-color: wheat;
+    border-radius: 20px;
+
+}
+
+.product .row figure {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 1px solid wheat;
+    background-color: white;
+}
+
+.product .row img {
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+    /* chống thanh cuộn ngang */
+
+    /* chống méo hình */
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+footer {
+    background-color: skyblue;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 100px;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+
+
+}
